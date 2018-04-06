@@ -18,5 +18,6 @@ public class Main
 
         items.forEach((k,v) -> System.out.println("Key :" +k +" , Value :"+v));
         items.forEach((k,v) -> System.out.println("This Key :"+k));
+        items.forEach((k,v) -> System.out.println("This Value :"+v));
     }
 }
